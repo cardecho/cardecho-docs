@@ -3,8 +3,10 @@ layout: home
 
 hero:
   name: "CardEcho 新手指南"
-  text: "一站式虚拟信用卡解决方案"
-  tagline: "安全支付 · 全球订阅 · 轻松管理"
+  # text 这一行留空或者删掉，这样就没有第二行大黑字了
+  text: ""
+  # 把那句话放到这里，它会变成灰色小字，很精致
+  tagline: "一站式虚拟信用卡解决方案 · 安全支付 · 全球订阅"
   actions:
     - theme: brand
       text: "🚀 新手入门"
