@@ -31,7 +31,7 @@ export default defineConfig({
         text: '新手入门',
         items: [
           { text: '快速开始', link: '/guide/getting-started' },
-          { text: '什么是虚拟信用卡', link: '/guide/what-is-vcc' }
+          { text: '什么是虚拟信用卡', link: '/guide/what-is-vcc' },
           { text: '实名认证教程', link: '/guide/kyc' }
         ]
       },
