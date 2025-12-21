@@ -16,22 +16,21 @@
 ### 第二步：实名认证
 实名认证是为了保障您的资金安全，防止洗钱风险，我们绝不滥用您的隐私。
 
-使用前需要进行实名认证，支持四种证件：身份证、护照、居住证或者驾驶证
+使用前需要进行实名认证，支持四种证件：身份证、护照、居住证或者驾驶证。
 
-[![img](https://raw.githubusercontent.com/cardecho/image/main/image/image-20251123002412128.png)](https://raw.githubusercontent.com/cardecho/image/main/image/image-20251123002412128.png)
+验证服务由iDenfy提供，所以不用担心泄露您的隐私。
 
-请使用手机摄像头扫描二维码进入验证环节，微信、支付宝也可以扫。
+### 第三步：充值
 
-[![img](https://raw.githubusercontent.com/cardecho/image/main/image/image-20251123002715024.png)](https://raw.githubusercontent.com/cardecho/image/main/image/image-20251123002715024.png)
+有两种充值方式，客服充值或者USDT充值，如图：
 
-验证服务由iDenfy提供，所以不用担心泄露您的隐私。实名认证支持多种证件：支持身份证、护照、居住证或者驾驶证，如图：
-
-[![img](https://raw.githubusercontent.com/cardecho/image/main/image/image-20251123002858143.png)](https://raw.githubusercontent.com/cardecho/image/main/image/image-20251123002858143.png)
-
-全程中文界面，操作很简单，一看就会。假如你使用身份证进行实名认证，只需要拍身份证正、反面，并提供一张自拍照即可。
-
-[![img](https://raw.githubusercontent.com/cardecho/image/main/image/image-20251123005155044.png)](https://raw.githubusercontent.com/cardecho/image/main/image/image-20251123005155044.png)
+![image-20251221184702957](https://raw.githubusercontent.com/cardecho/image/main/image/image-20251221184702957.png)
 
 ::: tip 💡 小贴士
 建议首次充值不要太多，够用就行。
 :::
+
+### 第四步：开卡
+
+目前有37个卡头，都是美国发行的虚拟信用卡。
+
