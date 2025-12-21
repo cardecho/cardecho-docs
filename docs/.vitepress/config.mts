@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "CardEcho 博客",
+  title: "CardEcho 虚拟信用卡",
   description: "虚拟信用卡使用指南与评测",
   
   // 你的 GitHub 仓库名称（如果是 cardecho-docs，这里可以删掉 base 行，或者保持默认）
