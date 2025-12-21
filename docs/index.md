@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "CardEcho 指南"
+  name: "CardEcho 新手指南"
   text: "一站式虚拟信用卡解决方案"
   tagline: "安全支付 · 全球订阅 · 轻松管理"
   actions:
