@@ -37,7 +37,7 @@ export default defineConfig({
       {
         text: '进阶使用',
         items: [
-          { text: '如何使用支付宝、微信充值', link: '/guide/bind-alipay' },
+          { text: '如何充值 (USDT)', link: '/guide/deposit' },
           { text: 'ChatGPT 订阅教程', link: '/guide/chatgpt' }
         ]
       }
