@@ -40,7 +40,7 @@ export default defineConfig({
         items: [
           { text: '如何充值 (USDT)', link: '/guide/deposit' },
           { text: '如何在欧易购买USDT', link: '/guide/buyusdtatokx' },
-          { text: '充值未到账怎么办', link: '/guide/deposit-issues' },
+          { text: 'USDT充值未到账怎么办', link: '/guide/deposit-issues' },
           { text: 'ChatGPT 订阅教程', link: '/guide/chatgpt' }
         ]
       }
