@@ -38,6 +38,7 @@ export default defineConfig({
         text: '进阶使用',
         items: [
           { text: '如何充值 (USDT)', link: '/guide/deposit' },
+          { text: '如何在欧易购买USDT', link: '/guide/buyusdtatokx' },
           { text: 'ChatGPT 订阅教程', link: '/guide/chatgpt' }
         ]
       }
