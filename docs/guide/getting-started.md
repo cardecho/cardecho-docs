@@ -24,7 +24,7 @@
 
 有两种充值方式，客服充值或者USDT充值，如图：
 
-![image-20251221184702957](https://cdn.jsdelivr.net/gh/cardecho/image@main/image/image-20251221184702957.png)
+![image-20251221184702957](https://cdn.staticaly.com/gh/cardecho/image@main/image/image-20251221184702957.png)
 
 ::: tip 💡 小贴士
 建议首次充值不要太多，够用就行。
