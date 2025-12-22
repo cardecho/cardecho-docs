@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "ChatGPT Plus 订阅专用卡"
   text: "专治 'Card has been declined' 报错"
-  tagline: "原生美国 Visa 卡段 · 1分钟解锁 GPT5.2 · 支持 USDT 充值"
+  tagline: "原生美国 Visa 卡段 · 1分钟解锁 GPT5.2 · 支持 USDT 充值，首次充值到帐后，返现5美元"
   image:
     src: /images/chatgpt-card.jpg # ⚠️ 确保图片存在
     alt: ChatGPT Plus Virtual Card
