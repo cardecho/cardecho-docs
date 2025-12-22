@@ -42,6 +42,7 @@ export default defineConfig({
           { text: '如何充值 (USDT)', link: '/guide/deposit' },
           { text: '如何在欧易购买USDT', link: '/guide/buyusdtatokx' },
           { text: 'USDT充值未到账怎么办', link: '/guide/depositissues' },
+          { text: '如何解决支付被拒 (Card Declined)', link: '/guide/clean-ip' },
           { text: '风控规避与安全指南', link: '/guide/risk-control' },
           { text: 'OnlyFans 订阅教程', link: '/guide/onlyfans' },
           { text: 'ChatGPT 订阅教程', link: '/guide/chatgpt' }
