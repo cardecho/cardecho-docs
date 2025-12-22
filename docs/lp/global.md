@@ -86,15 +86,15 @@ const features = [
 </div>
 
 <style>
-/* 1. 基础设置 */
-.global-lp { max-width: 1100px; margin: 0 auto; padding: 40px 20px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+/* 1. 基础设置 (修改点：顶部 padding 从 40px 降为 10px) */
+.global-lp { max-width: 1100px; margin: 0 auto; padding: 10px 20px 40px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
 
 /* 2. 顶部横幅 */
 .promo-banner { display: inline-block; background: #fff1f2; color: #e11d48; border: 1px solid #fecdd3; padding: 8px 16px; border-radius: 30px; font-size: 0.9rem; font-weight: 500; margin-bottom: 16px; line-height: 1.5; animation: bounce 2s infinite; max-width: 90%; }
 @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
 
-/* 3. Hero 区域 (极度紧凑) */
-.hero-section { padding: 40px 0 10px; }
+/* 3. Hero 区域 (修改点：顶部 padding 从 40px 降为 20px) */
+.hero-section { padding: 20px 0 10px; }
 .hero-title { font-size: 3rem; font-weight: 800; line-height: 1.2; background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 16px; }
 .hero-subtitle { font-size: 1.2rem; color: #666; margin-bottom: 30px; line-height: 1.6; }
 .hero-actions { display: flex; gap: 20px; justify-content: center; margin-bottom: 24px; flex-wrap: wrap; }
@@ -105,8 +105,7 @@ const features = [
 .large { font-size: 1.2rem; padding: 16px 40px; }
 .trust-badges { display: flex; gap: 20px; justify-content: center; font-size: 0.9rem; color: #4b5563; flex-wrap: wrap; }
 
-/* 4. Logo 墙 (上下都紧凑) */
-/* 👇 修改点：上下 padding 都改成 20px */
+/* 4. Logo 墙 */
 .apps-section { padding: 20px 0 20px; border-top: none; }
 .apps-section h2 { margin-bottom: 0; } 
 
@@ -125,8 +124,7 @@ const features = [
 .feature-card h3 { margin: 0 0 10px 0; font-size: 1.1rem; color: #111; }
 .feature-card p { margin: 0; font-size: 0.9rem; color: #666; line-height: 1.5; }
 
-/* 5. 对比区域 (大幅压缩) */
-/* 👇 修改点：上下 padding 从 60/40 全降到 20px */
+/* 5. 对比区域 */
 .compare-section { padding: 20px 0 20px; }
 .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 30px; }
 @media (max-width: 768px) { .compare-grid { grid-template-columns: 1fr; } }
@@ -140,8 +138,7 @@ const features = [
 .compare-item ul { padding-left: 20px; margin-bottom: 0; }
 .compare-item li { margin-bottom: 8px; color: #374151; }
 
-/* 6. 底部行动号召 (紧贴上方) */
-/* 👇 新增控制：padding-top 设为 10px，紧贴对比区 */
+/* 6. 底部行动号召 */
 .footer-cta { padding: 10px 0 60px; }
 .footer-cta h2 { margin-top: 0; }
 
