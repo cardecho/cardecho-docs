@@ -16,6 +16,23 @@ export default defineConfig({
     ["link", { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png" }],
     ["link", { rel: "manifest", href: "/site.webmanifest" }],
     ["meta", { name: "theme-color", content: "#FF6A00" }],
+    // --- 👇 新增：Google Ads 追踪代码 (Start) 👇 ---
+    [
+      "script",
+      { 
+        async: "", 
+        src: "https://www.googletagmanager.com/gtag/js?id=AW-982837932" 
+      }
+    ],
+    [
+      "script",
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-982837932');`
+    ]
+    // --- 👆 新增：Google Ads 追踪代码 (End) 👆 ---
 	],
   
   themeConfig: {
