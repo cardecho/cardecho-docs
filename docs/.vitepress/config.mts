@@ -50,7 +50,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cardecho/cardecho-docs' }
-    ]，
+    ],
 
     footer: {
       message: 'Powered by US Banking Infrastructure & Secure Payment Network.',
