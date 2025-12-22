@@ -31,7 +31,7 @@ const features = [
 <p class="hero-subtitle">无论是 AI 绘图、美剧流媒体，还是海外海淘。<br>CardEcho 虚拟信用卡，助您一键支付。</p>
     
 <div class="hero-actions">
-<a href="https://www.cardecho.com/index/Index/signIn.html?invCode=C517936" class="cta-button primary" target="_blank">🚀 立即开卡 (充值返 $5)</a>
+<a href="https://www.cardecho.com/index/Index/signIn.html?invCode=C517936" class="cta-button primary" target="_blank">🚀 立即开卡 (USDT充值返 $5)</a>
 <a href="#supported-apps" class="cta-button secondary">查看支持平台</a>
 </div>
     
