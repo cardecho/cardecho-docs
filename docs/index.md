@@ -31,6 +31,6 @@ features:
   - title: "支付安全"
     details: "如何避免风控？如何保护隐私？这里有最专业的风控规避指南。"
     icon: 🛡️
-    link: /faq/
-    linkText: 了解更多
+    link: /guide/risk-control
+    linkText: 规避指南
 ---
