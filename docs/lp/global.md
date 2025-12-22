@@ -18,136 +18,86 @@ const features = [
 
 <div class="global-lp">
 
-  <section class="hero-section">
-    <div class="promo-banner">
-      🎉 限时福利：注册并完成<strong>实名认证</strong>，使用 <strong>USDT 首充到账</strong>后，立返 <strong>$5 美元！</strong> 💸
-    </div>
+<section class="hero-section">
+<div class="promo-banner">
+🎉 限时福利：注册并完成<strong>实名认证</strong>，使用 <strong>USDT 首充到账</strong>后，立返 <strong>$5 美元！</strong> 💸
+</div>
 
-    <h1 class="hero-title">打破支付边界<br>一张卡订阅全球服务</h1>
-    <p class="hero-subtitle">无论是 AI 绘图、美剧流媒体，还是海外云服务。<br>CardEcho 虚拟信用卡，助您一键支付。</p>
+<h1 class="hero-title">打破支付边界<br>一张卡订阅全球服务</h1>
+<p class="hero-subtitle">无论是 AI 绘图、美剧流媒体，还是海外云服务。<br>CardEcho 虚拟信用卡，助您一键支付。</p>
     
-    <div class="hero-actions">
-      <a href="[https://www.cardecho.com/index/Index/signIn.html?invCode=C517936](https://www.cardecho.com/index/Index/signIn.html?invCode=C517936)" class="cta-button primary" target="_blank">🚀 立即开卡 (充值返 $5)</a>
-      <a href="#supported-apps" class="cta-button secondary">查看支持平台</a>
-    </div>
+<div class="hero-actions">
+<a href="https://www.cardecho.com/index/Index/signIn.html?invCode=C517936" class="cta-button primary" target="_blank">🚀 立即开卡 (充值返 $5)</a>
+<a href="#supported-apps" class="cta-button secondary">查看支持平台</a>
+</div>
     
-    <div class="trust-badges">
-      <span>✅ 支持 USDT 充值</span>
-      <span>✅ 原生美国 Visa 卡段</span>
-      <span>🎁 <strong>认证首充返 $5</strong></span>
-    </div>
-  </section>
+<div class="trust-badges">
+<span>✅ 支持 USDT 充值</span>
+<span>✅ 原生美国 Visa 卡段</span>
+<span>🎁 <strong>认证首充返 $5</strong></span>
+</div>
+</section>
 
-  <section id="supported-apps" class="apps-section">
-    <h2>只需一张卡，搞定所有订阅</h2>
-    <div class="grid-container">
-      <div v-for="item in features" :key="item.title" class="feature-card">
-        <div class="card-icon">{{ item.icon }}</div>
-        <h3>{{ item.title }}</h3>
-        <p>{{ item.desc }}</p>
-      </div>
-    </div>
-  </section>
+<section id="supported-apps" class="apps-section">
+<h2>只需一张卡，搞定所有订阅</h2>
+<div class="grid-container">
+<div v-for="item in features" :key="item.title" class="feature-card">
+<div class="card-icon">{{ item.icon }}</div>
+<h3>{{ item.title }}</h3>
+<p>{{ item.desc }}</p>
+</div>
+</div>
+</section>
 
-  <section class="compare-section">
-    <h2>为什么选择 CardEcho？</h2>
-    <div class="compare-grid">
-      <div class="compare-item bad">
-        <h3>❌ 普通国内信用卡</h3>
-        <ul>
-          <li>经常提示 "Card Declined"</li>
-          <li>无法通过跨境支付验证</li>
-          <li>不支持加密货币充值</li>
-          <li>没有任何返现活动</li>
-        </ul>
-      </div>
-      <div class="compare-item good">
-        <h3>✅ CardEcho 虚拟卡</h3>
-        <ul>
-          <li><strong>美国原生 BIN</strong>，高通过率</li>
-          <li><strong>支持 AVS 地址验证</strong> (订阅更稳)</li>
-          <li><strong>USDT 充值</strong>，安全快捷</li>
-          <li class="highlight-text">🎁 <strong>完成实名及 USDT 首充，自动返 $5</strong></li>
-        </ul>
-      </div>
-    </div>
-  </section>
+<section class="compare-section">
+<h2>为什么选择 CardEcho？</h2>
+<div class="compare-grid">
+<div class="compare-item bad">
+<h3>❌ 普通国内信用卡</h3>
+<ul>
+<li>经常提示 "Card Declined"</li>
+<li>无法通过跨境支付验证</li>
+<li>不支持加密货币充值</li>
+<li>没有任何返现活动</li>
+</ul>
+</div>
+<div class="compare-item good">
+<h3>✅ CardEcho 虚拟卡</h3>
+<ul>
+<li><strong>美国原生 BIN</strong>，高通过率</li>
+<li><strong>支持 AVS 地址验证</strong> (订阅更稳)</li>
+<li><strong>USDT 充值</strong>，安全快捷</li>
+<li class="highlight-text">🎁 <strong>完成实名及 USDT 首充，自动返 $5</strong></li>
+</ul>
+</div>
+</div>
+</section>
 
-  <section class="footer-cta">
-    <h2>别让支付失败阻碍您的探索</h2>
-    <p>完成实名认证并使用 USDT 首次充值，系统将自动发放 $5 美元奖励。</p>
-    <a href="[https://www.cardecho.com/index/Index/signIn.html?invCode=C517936](https://www.cardecho.com/index/Index/signIn.html?invCode=C517936)" class="cta-button primary large" target="_blank">👉 立即注册认证，领取 $5</a>
-  </section>
+<section class="footer-cta">
+<h2>别让支付失败阻碍您的探索</h2>
+<p>完成实名认证并使用 USDT 首次充值，系统将自动发放 $5 美元奖励。</p>
+<a href="https://www.cardecho.com/index/Index/signIn.html?invCode=C517936" class="cta-button primary large" target="_blank">👉 立即注册认证，领取 $5</a>
+</section>
 
 </div>
 
 <style>
-/* CSS 样式保持不变，确保美观 */
-.global-lp {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 40px 20px;
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-}
-.promo-banner {
-  display: inline-block;
-  background: #fff1f2;
-  color: #e11d48;
-  border: 1px solid #fecdd3;
-  padding: 10px 20px;
-  border-radius: 30px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  margin-bottom: 24px;
-  line-height: 1.5;
-  animation: bounce 2s infinite;
-  max-width: 90%;
-}
-@keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-3px); }
-}
+.global-lp { max-width: 960px; margin: 0 auto; padding: 40px 20px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+.promo-banner { display: inline-block; background: #fff1f2; color: #e11d48; border: 1px solid #fecdd3; padding: 10px 20px; border-radius: 30px; font-size: 0.9rem; font-weight: 500; margin-bottom: 24px; line-height: 1.5; animation: bounce 2s infinite; max-width: 90%; }
+@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
 .hero-section { padding: 40px 0 60px; }
-.hero-title { 
-  font-size: 3rem; 
-  font-weight: 800; 
-  line-height: 1.2; 
-  background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 20px;
-}
+.hero-title { font-size: 3rem; font-weight: 800; line-height: 1.2; background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 20px; }
 .hero-subtitle { font-size: 1.2rem; color: #666; margin-bottom: 40px; line-height: 1.6; }
 .hero-actions { display: flex; gap: 20px; justify-content: center; margin-bottom: 30px; flex-wrap: wrap; }
-.cta-button {
-  display: inline-block;
-  padding: 12px 30px;
-  border-radius: 30px;
-  font-weight: 600;
-  text-decoration: none !important;
-  transition: transform 0.2s;
-}
+.cta-button { display: inline-block; padding: 12px 30px; border-radius: 30px; font-weight: 600; text-decoration: none !important; transition: transform 0.2s; }
 .cta-button:hover { transform: translateY(-2px); }
 .primary { background: #10b981; color: white !important; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4); }
 .secondary { background: #f3f4f6; color: #333 !important; border: 1px solid #e5e7eb; }
 .large { font-size: 1.2rem; padding: 16px 40px; }
 .trust-badges { display: flex; gap: 20px; justify-content: center; font-size: 0.9rem; color: #4b5563; flex-wrap: wrap; }
 .apps-section { padding: 60px 0; border-top: 1px solid #eee; }
-.grid-container { 
-  display: grid; 
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
-  gap: 20px; 
-  margin-top: 40px; 
-}
-.feature-card {
-  background: #f9fafb;
-  padding: 24px;
-  border-radius: 12px;
-  border: 1px solid #e5e7eb;
-  text-align: left;
-}
+.grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-top: 40px; }
+.feature-card { background: #f9fafb; padding: 24px; border-radius: 12px; border: 1px solid #e5e7eb; text-align: left; }
 .card-icon { font-size: 2.5rem; margin-bottom: 10px; }
 .feature-card h3 { margin: 0 0 10px 0; font-size: 1.1rem; color: #111; }
 .feature-card p { margin: 0; font-size: 0.9rem; color: #666; line-height: 1.5; }
