@@ -64,26 +64,26 @@ features:
   
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
     
-    <div style="background: white; padding: 20px; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+<div style="background: white; padding: 20px; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
       <h3 style="margin-top: 0; color: #10a37f;">Step 1: 获取美区原生卡</h3>
       <p style="color: #4b5563; font-size: 0.95rem;">
         注册 CardEcho，申请一张 <strong>5567 / 5347</strong> 开头的美国虚拟卡。这些卡段在 OpenAI 的白名单内。
       </p>
-    </div>
+</div>
 
-    <div style="background: white; padding: 20px; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+<div style="background: white; padding: 20px; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
       <h3 style="margin-top: 0; color: #10a37f;">Step 2: 纯净环境配置</h3>
       <p style="color: #4b5563; font-size: 0.95rem;">
         配合我们的<a href="/guide/clean-ip">环境配置指南</a>，使用<strong>无痕模式 + 美国住宅 IP</strong>，避开风控黑名单。
       </p>
-    </div>
+</div>
 
-    <div style="background: white; padding: 20px; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+<div style="background: white; padding: 20px; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
       <h3 style="margin-top: 0; color: #10a37f;">Step 3: 填写账单地址</h3>
       <p style="color: #4b5563; font-size: 0.95rem;">
         复制卡片后台提供的<strong>真实美国地址</strong>。ZIP Code (邮编) 必须一致，以通过 AVS 验证。
       </p>
-    </div>
+</div>
 
   </div>
 </div>
