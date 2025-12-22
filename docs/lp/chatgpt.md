@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "ChatGPT Plus 订阅专用卡"
   text: "专治 'Card has been declined' 报错"
-  tagline: "原生美国 Visa 卡段 · 1分钟解锁 GPT-4o & o1 · 支持 USDT 充值"
+  tagline: "原生美国 Visa 卡段 · 1分钟解锁 GPT5.2 · 支持 USDT 充值"
   image:
     src: /images/chatgpt-card.jpg # ⚠️ 确保图片存在
     alt: ChatGPT Plus Virtual Card
@@ -26,10 +26,10 @@ features:
     icon: 🛡️
 
   - title: 🇺🇸 真实免税州地址
-    details: 提供真实的美国账单地址 (Billing Address)。不仅能过 AVS 验证，还能利用免税州 (如 OR, DE) 帮您每月立省 $1-$2 税费。
+    details: 可以自定义真实的美国账单地址 (Billing Address)。不仅能过 AVS 验证，还能利用免税州 (如 OR, DE) 帮您每月立省 $1-$2 税费。
     icon: 💰
 
-  - title: 🤖 解锁 GPT-4o 完全体
+  - title: 🤖 解锁 GPT5.2完全体
     details: 稳定订阅 ChatGPT Plus ($20/月) 或 Team 版。不再受限于免费版次数，体验最强 AI 生产力。
     icon: 🧠
 
@@ -67,7 +67,7 @@ features:
       <div style="background: white; padding: 15px; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.1);">
         <h3 style="margin-top: 0; color: #10a37f; font-size: 1.1rem;">Step 1: 获取美区原生卡</h3>
         <p style="color: #4b5563; font-size: 0.9rem; margin-bottom: 0;">
-          注册 CardEcho，申请一张 <strong>5567 / 5347</strong> 开头的美国虚拟卡。这些卡段在 OpenAI 的白名单内。
+          注册 CardEcho，申请一张 <strong>556305 / 558068</strong> 开头的美国虚拟卡。这些卡段在 OpenAI 的白名单内。
         </p>
       </div>
       <div style="background: white; padding: 15px; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.1);">
@@ -79,7 +79,7 @@ features:
       <div style="background: white; padding: 15px; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.1);">
         <h3 style="margin-top: 0; color: #10a37f; font-size: 1.1rem;">Step 3: 填写账单地址</h3>
         <p style="color: #4b5563; font-size: 0.9rem; margin-bottom: 0;">
-          复制卡片后台提供的<strong>真实美国地址</strong>。ZIP Code (邮编) 必须一致，以通过 AVS 验证。
+          复制卡片后台绑定的<strong>真实美国地址</strong>。ZIP Code (邮编) 必须一致，以通过 AVS 验证。
         </p>
       </div>
     </div>
@@ -94,5 +94,5 @@ features:
   <a href="/guide/getting-started" style="background: #10a37f; color: white; padding: 16px 32px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.3rem; box-shadow: 0 10px 15px -3px rgba(16, 163, 127, 0.3); display: inline-block;">
     👉 立即获取 ChatGPT 专用卡
   </a>
-  <p style="margin-top: 15px; font-size: 0.8rem; color: #888;">新用户注册免月费 · 支持随时提现</p>
+  <p style="margin-top: 15px; font-size: 0.8rem; color: #888;">新用户首次使用USDT充值，到帐后自动返现5美元</p>
 </div>
