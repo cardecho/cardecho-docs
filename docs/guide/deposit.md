@@ -39,7 +39,7 @@ CardEcho 新手指南：3分钟学会使用 USDT 充值
    - *Alex 提示：TRC20 速度快、手续费便宜，是首选。*
 
 6. 点击**“Copy Text”**复制显示的 **“付款地址”**（通常是一串 `T` 开头的乱码字符）。如图：
-   ![image-20251212235008770](https://raw.githubusercontent.com/cardecho/image/main/image/image-20251212235008770.png)
+   ![image-20251212235008770](https://cdn.jsdelivr.net/gh/cardecho/image@main/image/image-20251212235008770.png)
 
    ### 第 2 步：从交易所提现（转账）
 
@@ -50,12 +50,12 @@ CardEcho 新手指南：3分钟学会使用 USDT 充值
       - **地址：** 粘贴刚才在 CardEcho 复制的那串地址。或者直接扫码支付
       - **提现网络：** **必须选择 Tron(TRC20)**。
 		<p align="center">
-			<img src="https://raw.githubusercontent.com/cardecho/image/main/image/image-20251213001236395.png">
+			<img src="https://cdn.jsdelivr.net/gh/cardecho/image@main/image/image-20251213001236395.png">
 		</p>
       - **金额：** **手续费需自付，因此请确保实际转出金额与要求付款金额一致，包括小数点后四位(手续费自理)，否则无法到账。**
         假如需要付款的金额是50.7814，而此时的手续费是2.1，提现时需要输入50.7814+2.1=52.8814，下面就是个错误的例子，由于没有考虑手续费，实际到帐48.6814，不会自动入账。如图：
 		<p align="center">
-			<img src="https://raw.githubusercontent.com/cardecho/image/main/image/image-20251213002414226.png">
+			<img src="https://cdn.jsdelivr.net/gh/cardecho/image@main/image/image-20251213002414226.png">
 		</p>
    
    ### 第 3 步：等待到账
