@@ -6,7 +6,7 @@ hero:
   name: "ChatGPT Plus 订阅专用卡"
   text: "专治 'Card has been declined' 报错"
   # 👇 修改这一行，加了颜色样式
-  tagline: "原生美国 Visa 卡段 · 1分钟解锁 GPT-4o & o1 · 支持 USDT 充值<br><span style='color: #ef4444; font-weight: bold;'>🔥 首次充值到帐后，立即返现 5 美元</span>"
+  tagline: "原生美国 Visa 卡段 · 1分钟解锁 GPT5.2 · 支持 USDT 充值<br><span style='color: #ef4444; font-weight: bold;'>🔥 首次充值到帐后，立即返现 5 美元</span>"
   image:
     src: /images/chatgpt-card.jpg # ⚠️ 确保图片存在
     alt: ChatGPT Plus Virtual Card
@@ -92,7 +92,7 @@ features:
   <h2 style="border: none; margin-bottom: 15px;">已有 10,000+ 用户成功升级 GPT5.2</h2>
   <p style="margin-bottom: 25px;">别再浪费时间寻找不靠谱的代充了，掌握自己的账号控制权。</p>
   
-  <a href="https://www.cardecho.com/index/Index/signIn.html?invCode=C517936" style="background: #10a37f; color: white; padding: 16px 32px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.3rem; box-shadow: 0 10px 15px -3px rgba(16, 163, 127, 0.3); display: inline-block;">
+  <a href="https://www.cardecho.com/index/Index/signIn.html?invCode=C517936" target="_blank" style="background: #10a37f; color: white; padding: 16px 32px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.3rem; box-shadow: 0 10px 15px -3px rgba(16, 163, 127, 0.3); display: inline-block;">
     👉 立即获取 ChatGPT 专用卡
   </a>
   <p style="margin-top: 15px; font-size: 0.8rem; color: #888;">新用户首次使用USDT充值，到帐后自动返现5美元</p>
