@@ -89,12 +89,11 @@ const features = [
 /* 1. 基础设置 */
 .global-lp { max-width: 1100px; margin: 0 auto; padding: 40px 20px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
 
-/* 2. 顶部横幅 (更紧凑) */
+/* 2. 顶部横幅 */
 .promo-banner { display: inline-block; background: #fff1f2; color: #e11d48; border: 1px solid #fecdd3; padding: 8px 16px; border-radius: 30px; font-size: 0.9rem; font-weight: 500; margin-bottom: 16px; line-height: 1.5; animation: bounce 2s infinite; max-width: 90%; }
 @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
 
-/* 3. Hero 区域 (大幅压缩底部留白) */
-/* 👇 修改点：padding-bottom 从 60px 改为 10px */
+/* 3. Hero 区域 (极度紧凑) */
 .hero-section { padding: 40px 0 10px; }
 .hero-title { font-size: 3rem; font-weight: 800; line-height: 1.2; background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 16px; }
 .hero-subtitle { font-size: 1.2rem; color: #666; margin-bottom: 30px; line-height: 1.6; }
@@ -106,26 +105,19 @@ const features = [
 .large { font-size: 1.2rem; padding: 16px 40px; }
 .trust-badges { display: flex; gap: 20px; justify-content: center; font-size: 0.9rem; color: #4b5563; flex-wrap: wrap; }
 
-/* 4. Logo 墙 (三列布局 + 紧凑顶部) */
-/* 👇 修改点：padding-top 从 60px 改为 10px，去掉了 border-top */
-.apps-section { padding: 20px 0 60px; border-top: none; }
-.apps-section h2 { margin-bottom: 0; } /* 确保标题下方不要有太大默认间距 */
+/* 4. Logo 墙 (上下都紧凑) */
+/* 👇 修改点：上下 padding 都改成 20px */
+.apps-section { padding: 20px 0 20px; border-top: none; }
+.apps-section h2 { margin-bottom: 0; } 
 
 .grid-container { 
   display: grid; 
-  /* 💻 电脑端：强制 3 列 */
   grid-template-columns: repeat(3, 1fr); 
   gap: 24px; 
   margin-top: 30px; 
 }
-/* 📱 平板端：2 列 */
-@media (max-width: 960px) {
-  .grid-container { grid-template-columns: repeat(2, 1fr); }
-}
-/* 📱 手机端：1 列 */
-@media (max-width: 640px) {
-  .grid-container { grid-template-columns: 1fr; }
-}
+@media (max-width: 960px) { .grid-container { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .grid-container { grid-template-columns: 1fr; } }
 
 .feature-card { background: #f9fafb; padding: 24px; border-radius: 12px; border: 1px solid #e5e7eb; text-align: left; transition: transform 0.2s; }
 .feature-card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px -10px rgba(0,0,0,0.1); }
@@ -133,8 +125,9 @@ const features = [
 .feature-card h3 { margin: 0 0 10px 0; font-size: 1.1rem; color: #111; }
 .feature-card p { margin: 0; font-size: 0.9rem; color: #666; line-height: 1.5; }
 
-/* 5. 对比区域 */
-.compare-section { padding: 40px 0 60px; }
+/* 5. 对比区域 (大幅压缩) */
+/* 👇 修改点：上下 padding 从 60/40 全降到 20px */
+.compare-section { padding: 20px 0 20px; }
 .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 30px; }
 @media (max-width: 768px) { .compare-grid { grid-template-columns: 1fr; } }
 .compare-item { padding: 30px; border-radius: 16px; text-align: left; }
@@ -147,7 +140,12 @@ const features = [
 .compare-item ul { padding-left: 20px; margin-bottom: 0; }
 .compare-item li { margin-bottom: 8px; color: #374151; }
 
-/* 6. 暗黑模式适配 */
+/* 6. 底部行动号召 (紧贴上方) */
+/* 👇 新增控制：padding-top 设为 10px，紧贴对比区 */
+.footer-cta { padding: 10px 0 60px; }
+.footer-cta h2 { margin-top: 0; }
+
+/* 7. 暗黑模式适配 */
 html.dark .promo-banner { background: #4c0519; color: #fda4af; border-color: #881337; }
 html.dark .hero-subtitle { color: #aaa; }
 html.dark .feature-card { background: #1e1e20; border-color: #333; }
