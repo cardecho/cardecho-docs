@@ -1,10 +1,10 @@
 ---
 layout: page
-title: CardEcho 全球支付卡 - 注册立领 $5 美元，订阅全球服务
+title: CardEcho 全球支付卡 - 注册认证充值，立返 $5 美元
 head:
   - - meta
     - name: description
-      content: 注册即送 $5 美元！一张支持 USDT 充值的美国虚拟信用卡，轻松订阅 ChatGPT, Midjourney, OnlyFans, Netflix。
+      content: 新用户注册完成实名认证，并使用 USDT 首次充值，系统自动返现 $5 美元！一张支持全球订阅的美国虚拟信用卡。
 ---
 
 <script setup>
@@ -20,21 +20,21 @@ const features = [
 
   <section class="hero-section">
     <div class="promo-banner">
-      🎉 限时福利：新用户注册首充，<strong>立返 $5 美元现金！</strong> 💸
+      🎉 限时福利：注册并完成<strong>实名认证</strong>，使用 <strong>USDT 首充到账</strong>后，立返 <strong>$5 美元！</strong> 💸
     </div>
 
     <h1 class="hero-title">打破支付边界<br>一张卡订阅全球服务</h1>
     <p class="hero-subtitle">无论是 AI 绘图、美剧流媒体，还是海外云服务。<br>CardEcho 虚拟信用卡，助您一键支付，拒绝被拒。</p>
     
     <div class="hero-actions">
-      <a href="https://www.cardecho.com/index/Index/signIn.html?invCode=C517936" class="cta-button primary" target="_blank">🚀 立即开卡 (领 $5 返现)</a>
+      <a href="https://www.cardecho.com/index/Index/signIn.html?invCode=C517936" class="cta-button primary" target="_blank">🚀 立即开卡 (充值返 $5)</a>
       <a href="#supported-apps" class="cta-button secondary">查看支持平台</a>
     </div>
     
     <div class="trust-badges">
       <span>✅ 支持 USDT 充值</span>
       <span>✅ 原生美国 Visa 卡段</span>
-      <span>🎁 <strong>注册送 $5</strong></span>
+      <span>🎁 <strong>认证首充返 $5</strong></span>
     </div>
   </section>
 
@@ -67,7 +67,7 @@ const features = [
           <li><strong>美国原生 BIN</strong>，通过率 99%</li>
           <li>提供<strong>真实美国账单地址</strong></li>
           <li><strong>USDT 充值</strong>，完全匿名安全</li>
-          <li class="highlight-text">🎁 <strong>新用户首充立即返现 $5</strong></li>
+          <li class="highlight-text">🎁 <strong>完成实名及 USDT 首充，自动返 $5</strong></li>
         </ul>
       </div>
     </div>
@@ -75,14 +75,14 @@ const features = [
 
   <section class="footer-cta">
     <h2>别让支付失败阻碍您的探索</h2>
-    <p>现在注册，不仅能搞定订阅，还能白嫖 $5 美元余额。</p>
-    <a href="https://www.cardecho.com/index/Index/signIn.html?invCode=C517936" class="cta-button primary large" target="_blank">👉 立即注册，领取 $5</a>
+    <p>完成实名认证并使用 USDT 首次充值，系统将自动发放 $5 美元奖励。</p>
+    <a href="https://www.cardecho.com/index/Index/signIn.html?invCode=C517936" class="cta-button primary large" target="_blank">👉 立即注册认证，领取 $5</a>
   </section>
 
 </div>
 
 <style>
-/* CSS 美化 */
+/* 保持样式不变 */
 .global-lp {
   max-width: 960px;
   margin: 0 auto;
@@ -91,18 +91,20 @@ const features = [
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-/* Promo Banner (新增) */
+/* Promo Banner (文字变长了，调整一下内边距) */
 .promo-banner {
   display: inline-block;
   background: #fff1f2;
   color: #e11d48;
   border: 1px solid #fecdd3;
-  padding: 8px 16px;
-  border-radius: 20px;
+  padding: 10px 20px;
+  border-radius: 30px;
   font-size: 0.9rem;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  line-height: 1.5;
   animation: bounce 2s infinite;
+  max-width: 90%;
 }
 @keyframes bounce {
   0%, 100% { transform: translateY(0); }
@@ -124,7 +126,7 @@ const features = [
 .hero-subtitle { font-size: 1.2rem; color: #666; margin-bottom: 40px; line-height: 1.6; }
 
 /* Buttons */
-.hero-actions { display: flex; gap: 20px; justify-content: center; margin-bottom: 30px; }
+.hero-actions { display: flex; gap: 20px; justify-content: center; margin-bottom: 30px; flex-wrap: wrap; }
 .cta-button {
   display: inline-block;
   padding: 12px 30px;
@@ -139,7 +141,7 @@ const features = [
 .large { font-size: 1.2rem; padding: 16px 40px; }
 
 /* Trust Badges */
-.trust-badges { display: flex; gap: 20px; justify-content: center; font-size: 0.9rem; color: #4b5563; }
+.trust-badges { display: flex; gap: 20px; justify-content: center; font-size: 0.9rem; color: #4b5563; flex-wrap: wrap; }
 
 /* Apps Grid */
 .apps-section { padding: 60px 0; border-top: 1px solid #eee; }
