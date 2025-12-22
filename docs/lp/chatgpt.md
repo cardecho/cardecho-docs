@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 🚀 立即开卡 (支持 USDT)
-      link: /guide/getting-started
+      link: https://www.cardecho.com/index/Index/signIn.html?invCode=C517936
     - theme: alt
       text: 为什么支付会失败？
       link: /guide/clean-ip
@@ -91,7 +91,7 @@ features:
   <h2 style="border: none; margin-bottom: 15px;">已有 10,000+ 用户成功升级 GPT-4</h2>
   <p style="margin-bottom: 25px;">别再浪费时间寻找不靠谱的代充了，掌握自己的账号控制权。</p>
   
-  <a href="/guide/getting-started" style="background: #10a37f; color: white; padding: 16px 32px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.3rem; box-shadow: 0 10px 15px -3px rgba(16, 163, 127, 0.3); display: inline-block;">
+  <a href="https://www.cardecho.com/index/Index/signIn.html?invCode=C517936" style="background: #10a37f; color: white; padding: 16px 32px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.3rem; box-shadow: 0 10px 15px -3px rgba(16, 163, 127, 0.3); display: inline-block;">
     👉 立即获取 ChatGPT 专用卡
   </a>
   <p style="margin-top: 15px; font-size: 0.8rem; color: #888;">新用户首次使用USDT充值，到帐后自动返现5美元</p>
