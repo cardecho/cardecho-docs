@@ -1,5 +1,7 @@
 ---
-layout: page
+layout: doc
+sidebar: false
+aside: false
 title: CardEcho 全球支付卡 - 注册认证充值，立返 $5 美元
 head:
   - - meta
