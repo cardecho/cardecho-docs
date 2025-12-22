@@ -82,9 +82,14 @@ const features = [
 </div>
 
 <style>
+/* 全局容器 */
 .global-lp { max-width: 960px; margin: 0 auto; padding: 40px 20px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+
+/* 顶部横幅 */
 .promo-banner { display: inline-block; background: #fff1f2; color: #e11d48; border: 1px solid #fecdd3; padding: 10px 20px; border-radius: 30px; font-size: 0.9rem; font-weight: 500; margin-bottom: 24px; line-height: 1.5; animation: bounce 2s infinite; max-width: 90%; }
 @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+
+/* Hero 区域 */
 .hero-section { padding: 40px 0 60px; }
 .hero-title { font-size: 3rem; font-weight: 800; line-height: 1.2; background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 20px; }
 .hero-subtitle { font-size: 1.2rem; color: #666; margin-bottom: 40px; line-height: 1.6; }
@@ -95,12 +100,31 @@ const features = [
 .secondary { background: #f3f4f6; color: #333 !important; border: 1px solid #e5e7eb; }
 .large { font-size: 1.2rem; padding: 16px 40px; }
 .trust-badges { display: flex; gap: 20px; justify-content: center; font-size: 0.9rem; color: #4b5563; flex-wrap: wrap; }
+
+/* Logo 墙区域 (重点修改了这里) */
 .apps-section { padding: 60px 0; border-top: 1px solid #eee; }
-.grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-top: 40px; }
+.grid-container { 
+  display: grid; 
+  /* 👇 修改点：强制电脑端为 2 列 */
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
+  margin-top: 40px; 
+  /* 让网格整体居中 */
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* 👇 新增：手机端强制为 1 列 */
+@media (max-width: 640px) {
+  .grid-container { grid-template-columns: 1fr; }
+}
+
 .feature-card { background: #f9fafb; padding: 24px; border-radius: 12px; border: 1px solid #e5e7eb; text-align: left; }
 .card-icon { font-size: 2.5rem; margin-bottom: 10px; }
 .feature-card h3 { margin: 0 0 10px 0; font-size: 1.1rem; color: #111; }
 .feature-card p { margin: 0; font-size: 0.9rem; color: #666; line-height: 1.5; }
+
+/* 对比区域 */
 .compare-section { padding: 60px 0; }
 .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 30px; }
 @media (max-width: 768px) { .compare-grid { grid-template-columns: 1fr; } }
@@ -113,6 +137,8 @@ const features = [
 .highlight-text { color: #d97706; font-weight: bold; }
 .compare-item ul { padding-left: 20px; margin-bottom: 0; }
 .compare-item li { margin-bottom: 8px; color: #374151; }
+
+/* 暗黑模式 */
 html.dark .promo-banner { background: #4c0519; color: #fda4af; border-color: #881337; }
 html.dark .hero-subtitle { color: #aaa; }
 html.dark .feature-card { background: #1e1e20; border-color: #333; }
