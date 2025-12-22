@@ -6,7 +6,7 @@ hero:
   text: "解决 'Card has been declined' 报错"
   tagline: "专治支付失败 · 1分钟解锁 GPT5.2 · 原生美国 Visa、万事达 卡段"
   image:
-   # src: /images/chatgpt-card.png # 建议准备一张带有 ChatGPT Logo 的卡片图
+    src: /images/chatgpt-card.jpg # 建议准备一张带有 ChatGPT Logo 的卡片图
     alt: ChatGPT Plus Virtual Card
   actions:
     - theme: brand
