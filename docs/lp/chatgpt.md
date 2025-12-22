@@ -7,7 +7,7 @@ hero:
   text: "专治 'Card has been declined' 报错"
   tagline: "原生美国 Visa 卡段 · 1分钟解锁 GPT-4o & o1 · 支持 USDT 充值"
   image:
-    src: /images/chatgpt-card.png # ⚠️ 记得放图！如果没有图，暂时删掉这一行
+    src: /images/chatgpt-card.jpg # ⚠️ 记得放图！如果没有图，暂时删掉这一行
     alt: ChatGPT Plus Virtual Card
   actions:
     - theme: brand
