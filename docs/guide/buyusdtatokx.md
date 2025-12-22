@@ -9,12 +9,12 @@
 注册好以后，网页左上角选择 “买币--->C2C买币”，如图：
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cardecho/image/main/image/image-20251120202557653.png" >
+  <img src="/images/image-20251120202557653.png" >
 </p>
 
 不建议使用“快捷交易”，因为价格会比较贵，选择中间的“C2C”，如图：
 
-![image-20251120202932763](https://raw.githubusercontent.com/cardecho/image/main/image/image-20251120202932763.png)
+![image-20251120202932763](/images/image-20251120202932763.png)
 
 一般来说，选“支付宝”会比较方便，建议选成交率比较高的商家购买，成交单数越多越好。
 
@@ -27,14 +27,14 @@
 点网站右上角的“资产管理”，然后选择“提币”，如图：
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cardecho/image/main/image/image-20251120203504728.png">
+  <img src="/images/image-20251120203504728.png">
 </p>
 
 
 然后依次选择币种--->"USDT"，网络“Tron(TRC20)”，输入提币地址以及提币数量，记得点一下“修改到帐数量”，否则可能延迟到帐，确保到帐数量与你要充值的数量一致。
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cardecho/image/main/image/image-20251120204215598.png" >
+  <img src="/images/image-20251120204215598.png" >
 </p>
 
 
