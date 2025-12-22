@@ -54,11 +54,18 @@ CardEcho 虚拟卡基于**美国原生 VISA/MasterCard 网络**，支持全球�
 
 ---
 
-## 🎬 影音娱乐 & 社交
+## 🎬 影音娱乐 & 社交 (高隐私需求)
 
-* **流媒体**: Netflix, Disney+, YouTube Premium, Spotify
-* **游戏**: Nintendo eShop (任天堂), Steam (美区), Blizzard
-* **社交**: **Twitter (X) Premium**, Patreon, Discord Nitro
+此类平台通常对隐私要求较高，CardEcho 虚拟卡可有效保护您的真实账单隐私。
+
+| 服务名称 | 状态 | 📚 教程/指南 | 备注 |
+| :--- | :--- | :--- | :--- |
+| **OnlyFans** | ✅ 完美支持 | **[👉 点击查看教程](/guide/onlyfans)** | 隐私保护，支持订阅/打赏 |
+| **Patreon** | ✅ 完美支持 | *教程撰写中...* | 创作者赞助 |
+| **Netflix** | ✅ 完美支持 | *教程撰写中...* | 4K 追剧 |
+| **Spotify** | ✅ 完美支持 | *教程撰写中...* | 音乐流媒体 |
+| **YouTube Premium**| ✅ 完美支持 | *教程撰写中...* | 去广告 |
+| **Discord Nitro** | ✅ 完美支持 | *教程撰写中...* | 聊天增强 |
 
 ---
 
