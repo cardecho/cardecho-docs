@@ -22,6 +22,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
+      { text: '关于我们', link: '/about' },
       { text: '新手教程', link: '/guide/getting-started' },
       { text: '常见问题', link: '/faq/' }
     ],
@@ -49,6 +50,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cardecho/cardecho-docs' }
-    ]
+    ]，
+
+    footer: {
+      message: 'Powered by US Banking Infrastructure & Secure Payment Network.',
+      copyright: 'Copyright © 2023-2025 CardEcho. All Rights Reserved.'
+    }
   }
 })
