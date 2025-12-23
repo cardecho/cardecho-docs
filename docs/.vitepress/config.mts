@@ -16,23 +16,24 @@ export default defineConfig({
     ["link", { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png" }],
     ["link", { rel: "manifest", href: "/site.webmanifest" }],
     ["meta", { name: "theme-color", content: "#FF6A00" }],
-    // --- 👇 新增：Google Ads 追踪代码 (Start) 👇 ---
+    // --- 👇 优化合并：Google 统一追踪代码 (GA4 + Ads) 👇 ---
+    // 1. 加载 gtag.js 核心库 (只加载一次即可支持所有 Google 产品)
     [
-      "script",
-      { 
-        async: "", 
-        src: "https://www.googletagmanager.com/gtag/js?id=AW-982837932" 
-      }
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-H9PSDGN6YD' }
     ],
+    // 2. 初始化配置 (同时启动 Analytics 和 Ads)
     [
-      "script",
+      'script',
       {},
       `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'AW-982837932');`
+
+      gtag('config', 'G-H9PSDGN6YD');   // Google Analytics 4
+      gtag('config', 'AW-982837932');   // Google Ads`
     ]
-    // --- 👆 新增：Google Ads 追踪代码 (End) 👆 ---
+    // --- 👆 优化结束 👆 ---
 	],
   
   themeConfig: {
