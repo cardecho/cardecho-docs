@@ -38,49 +38,49 @@
 
 <section class="value-section-doc">
   <h3>🛡️ 为什么 CardEcho 需要实名认证？</h3>
-  <p class="section-intro">为了保障您的资金安全与支付成功率，我们要确保每一位用户都是真实的。认证后您将获得：</p>
+  <p class="section-intro">为了保障平台所有用户的长期权益，我们实行严格的实名准入机制。认证将为您带来以下保障：</p>
   
-<div class="benefit-grid">
+  <div class="benefit-grid">
     <div class="benefit-item">
-      <div class="icon">🏦</div>
-      <div class="content">
-        <h4>合规银行账户环境</h4>
-        <p>为您开通独立的合规子账户，而非公用资金池，从源头保障资金与账号安全。</p>
-      </div>
-    </div>
-
-<div class="benefit-item">
-      <div class="icon">✅</div>
-      <div class="content">
-        <h4>AVS 地址验证支持</h4>
-        <p>实名账户支持 Billing Address 验证，解决订阅 OpenAI、Midjourney 时常见的“拒绝交易”问题。</p>
-      </div>
-    </div>
-
-<div class="benefit-item">
       <div class="icon">🔒</div>
       <div class="content">
-        <h4>独享风控白名单</h4>
-        <p>通过筛选高门槛用户，我们维护了极度纯净的卡段信誉，防止被关联封号。</p>
+        <h4>保障账户资金安全</h4>
+        <p>实名认证确立了账户的唯一归属权。当发生设备丢失或账号异常时，实名身份是找回资产的唯一凭证。</p>
       </div>
     </div>
 
-    <div class="benefit-item">
+<div class="benefit-item">
+      <div class="icon">✨</div>
+      <div class="content">
+        <h4>支持 AVS 地址验证</h4>
+        <p>基于真实身份，我们可以提供匹配的持卡人姓名与账单地址支持，这能显著提升 OpenAI 等平台的支付成功率。</p>
+      </div>
+</div>
+
+<div class="benefit-item">
+      <div class="icon">🛡️</div>
+      <div class="content">
+        <h4>维护卡段长期稳定</h4>
+        <p>通过拦截匿名的高风险滥用行为，我们维护了卡段 (BIN) 的纯净度与信誉，防止因他人违规导致您的卡片被连坐。</p>
+      </div>
+</div>
+
+<div class="benefit-item">
       <div class="icon">🎁</div>
       <div class="content">
-        <h4>认证首充返 $5</h4>
-        <p>完成认证并首次充值后，系统将自动发放 $5 美元奖励，抵扣您的开卡成本。</p>
+        <h4>抵扣开卡成本</h4>
+        <p>为了感谢您配合完成认证，首充后系统将自动发放 $5 美元奖励，直接降低您的使用门槛。</p>
       </div>
     </div>
   </div>
 </section>
 
 <style>
-/* 样式设计：强调专业、安全、温和 */
+/* 样式保持不变，沿用上一版清爽的设计 */
 .value-section-doc {
   margin: 20px 0 40px;
   padding: 24px;
-  background: #f8faff; /* 极淡的蓝色背景，体现科技/金融感 */
+  background: #f8faff; 
   border-radius: 12px;
   border: 1px solid #e0e7ff;
 }
