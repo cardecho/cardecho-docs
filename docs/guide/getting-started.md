@@ -36,101 +36,124 @@
 
 ### 第四步：开卡
 
-<section class="compare-section-doc">
-  <h3>⚡️ 为什么建议选择 CardEcho 实名卡？</h3>
-<div class="compare-grid">
-    <div class="compare-item bad">
-      <h4>❌ 普通免实名虚拟卡</h4>
-      <ul>
-        <li><strong>⚠️ 共享卡段风险：</strong> 多人共用，容易被平台连坐封号</li>
-        <li><strong>🚫 功能受限：</strong> 往往无法通过 AVS 地址验证</li>
-        <li><strong>📉 服务不稳定：</strong> 经常遇到 "Card Declined"</li>
-        <li><strong>💸 费率不透明：</strong> 常有隐形汇率损耗</li>
-      </ul>
-</div>
+<section class="value-section-doc">
+  <h3>🛡️ 为什么 CardEcho 需要实名认证？</h3>
+  <p class="section-intro">为了保障您的资金安全与支付成功率，我们要确保每一位用户都是真实的。认证后您将获得：</p>
+  
+<div class="benefit-grid">
+    <div class="benefit-item">
+      <div class="icon">🏦</div>
+      <div class="content">
+        <h4>合规银行账户环境</h4>
+        <p>为您开通独立的合规子账户，而非公用资金池，从源头保障资金与账号安全。</p>
+      </div>
+    </div>
 
-<div class="compare-item good">
-      <h4>✅ CardEcho 实名认证卡</h4>
-      <ul>
-        <li><strong>🛡️ 独立账户环境：</strong> 实名 KYC 独享卡段，极其稳定</li>
-        <li><strong>✨ 完整验证支持：</strong> 支持 Billing Address (AVS) 验证</li>
-        <li><strong>🚀 更高通过率：</strong> 专为 OpenAI / Midjourney 优化</li>
-        <li><strong>💰 相当于 0 元开卡：</strong> 认证首充，系统自动返现 $5</li>
-      </ul>
+<div class="benefit-item">
+      <div class="icon">✅</div>
+      <div class="content">
+        <h4>AVS 地址验证支持</h4>
+        <p>实名账户支持 Billing Address 验证，解决订阅 OpenAI、Midjourney 时常见的“拒绝交易”问题。</p>
+      </div>
+    </div>
+
+<div class="benefit-item">
+      <div class="icon">🔒</div>
+      <div class="content">
+        <h4>独享风控白名单</h4>
+        <p>通过筛选高门槛用户，我们维护了极度纯净的卡段信誉，防止被关联封号。</p>
+      </div>
+    </div>
+
+    <div class="benefit-item">
+      <div class="icon">🎁</div>
+      <div class="content">
+        <h4>认证首充返 $5</h4>
+        <p>完成认证并首次充值后，系统将自动发放 $5 美元奖励，抵扣您的开卡成本。</p>
+      </div>
     </div>
   </div>
 </section>
 
 <style>
-/* 文档专用样式 - 局部生效，不影响其他页面 */
-.compare-section-doc {
+/* 样式设计：强调专业、安全、温和 */
+.value-section-doc {
   margin: 20px 0 40px;
-  padding: 20px;
-  background: #f8f9fa; /* 浅灰背景衬托 */
+  padding: 24px;
+  background: #f8faff; /* 极淡的蓝色背景，体现科技/金融感 */
   border-radius: 12px;
-  border: 1px solid #eee;
-}
-.compare-section-doc h3 {
-  margin-top: 0 !important;
-  margin-bottom: 20px !important;
-  text-align: center;
-  font-size: 1.2rem;
-  border: none;
+  border: 1px solid #e0e7ff;
 }
 
-.compare-grid {
+.value-section-doc h3 {
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #3730a3;
+}
+
+.section-intro {
+  text-align: center;
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 24px !important;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefit-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 @media (max-width: 768px) {
-  .compare-grid { grid-template-columns: 1fr; }
+  .benefit-grid { grid-template-columns: 1fr; }
 }
 
-.compare-item {
+.benefit-item {
+  display: flex;
+  gap: 15px;
+  background: #fff;
   padding: 20px;
   border-radius: 10px;
-  font-size: 0.95rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+  border: 1px solid #f3f4f6;
+  transition: transform 0.2s;
 }
-.compare-item h4 {
-  margin-top: 0 !important;
-  margin-bottom: 15px !important;
-  font-size: 1.1rem;
+.benefit-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.benefit-item .icon {
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.benefit-item h4 {
+  margin: 0 0 6px 0 !important;
+  font-size: 1rem;
   font-weight: bold;
+  color: #1f2937;
 }
-.compare-item ul {
-  padding-left: 20px;
-  margin-bottom: 0 !important;
-}
-.compare-item li {
-  margin-bottom: 8px;
+
+.benefit-item p {
+  margin: 0 !important;
+  font-size: 0.85rem;
+  color: #6b7280;
   line-height: 1.5;
 }
 
-/* 红黑榜配色 */
-.bad {
-  background: #fff5f5;
-  border: 1px solid #feb2b2;
-}
-.bad h4 { color: #c53030; }
-.bad li { color: #742a2a; }
-
-.good {
-  background: #f0fdf4;
-  border: 1px solid #86efac;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-.good h4 { color: #15803d; }
-.good li { color: #166534; }
-
-/* 暗黑模式适配 (如果您的文档支持) */
-html.dark .compare-section-doc { background: #1e1e20; border-color: #333; }
-html.dark .bad { background: #450a0a; border-color: #7f1d1d; }
-html.dark .bad h4 { color: #fca5a5; }
-html.dark .bad li { color: #fecaca; }
-html.dark .good { background: #064e3b; border-color: #065f46; }
-html.dark .good h4 { color: #6ee7b7; }
-html.dark .good li { color: #d1fae5; }
+/* 暗黑模式适配 */
+html.dark .value-section-doc { background: #1e1e24; border-color: #333; }
+html.dark .value-section-doc h3 { color: #818cf8; }
+html.dark .section-intro { color: #9ca3af; }
+html.dark .benefit-item { background: #252529; border-color: #333; }
+html.dark .benefit-item h4 { color: #e5e7eb; }
+html.dark .benefit-item p { color: #9ca3af; }
 </style>
+
 目前有37个卡头，都是美国发行的虚拟信用卡。
 
