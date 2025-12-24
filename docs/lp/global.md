@@ -13,7 +13,7 @@ head:
 const features = [
   { icon: '🤖', title: '顶尖 AI 工具', desc: 'ChatGPT Plus, Midjourney, Claude, Notion AI' },
   { icon: '🎬', title: '流媒体娱乐', desc: 'Netflix, Spotify, YouTube Premium, Disney+' },
-  { icon: '💎', title: '创作者订阅', desc: 'OnlyFans, Patreon, Discord Nitro' },
+  { icon: '💎', title: '创作者订阅', desc: 'Patreon, Discord Nitro, Twitch, Gumroad' }, 
   { icon: '☁️', title: '云服务 & 开发', desc: 'AWS, Google Cloud, Apple ID, GitHub' },
   { icon: '🛒', title: '海淘电商', desc: 'Amazon, eBay, PayPal, Shopify' },
   { icon: '🎮', title: '游戏与应用', desc: 'Steam, Nintendo eShop, App Store, Google Play' }
@@ -59,9 +59,9 @@ const features = [
 <div class="compare-item bad">
 <h3>❌ 普通国内信用卡</h3>
 <ul>
-<li>经常提示 "Card Declined"</li>
-<li>无法通过跨境支付验证</li>
-<li>不支持加密货币充值</li>
+<li>部分海外商户不支持</li>
+<li>跨境支付成功率不稳定</li>
+<li>充值方式单一</li>
 <li>没有任何返现活动</li>
 </ul>
 </div>
