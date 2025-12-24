@@ -38,7 +38,7 @@
 
 <section class="compare-section-doc">
   <h3>⚡️ 为什么建议选择 CardEcho 实名卡？</h3>
-  <div class="compare-grid">
+<div class="compare-grid">
     <div class="compare-item bad">
       <h4>❌ 普通免实名虚拟卡</h4>
       <ul>
@@ -47,9 +47,9 @@
         <li><strong>📉 服务不稳定：</strong> 经常遇到 "Card Declined"</li>
         <li><strong>💸 费率不透明：</strong> 常有隐形汇率损耗</li>
       </ul>
-    </div>
+</div>
 
-    <div class="compare-item good">
+<div class="compare-item good">
       <h4>✅ CardEcho 实名认证卡</h4>
       <ul>
         <li><strong>🛡️ 独立账户环境：</strong> 实名 KYC 独享卡段，极其稳定</li>
