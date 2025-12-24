@@ -65,7 +65,7 @@ const benefits = [
   <section class="footer-cta">
     <div class="box">
       <h2>准备好升级您的 AI 生产力了吗？</h2>
-      <p>加入数万名用户的选择，稳定使用 GPT-4o、Claude 3.5 和 Midjourney。</p>
+      <p>加入数万名用户的选择，稳定使用 GPT5.2、Claude 3.5 和 Midjourney。</p>
       <a href="https://www.cardecho.com/index/Index/signIn.html?invCode=C517936" class="btn primary large" target="_blank">🚀 立即获取专用卡</a>
     </div>
   </section>
