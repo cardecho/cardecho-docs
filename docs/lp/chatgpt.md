@@ -25,10 +25,10 @@ const benefits = [
     <h1 class="title">解锁 ChatGPT Plus<br>最稳妥的支付方式</h1>
     <p class="subtitle">不再为 "Card Declined" 烦恼。<br>使用 CardEcho 美区虚拟卡，轻松订阅全球 AI 服务。</p>
     
-    <div class="cta-group">
+<div class="cta-group">
       <a href="https://www.cardecho.com/index/Index/signIn.html?invCode=C517936" class="btn primary" target="_blank">👉 立即开卡 (领 $5 返现)</a>
       <p class="small-note">支持 USDT (TRC20) • 0 门槛注册</p>
-    </div>
+</div>
   </section>
 
   <section class="features">
