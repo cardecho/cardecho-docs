@@ -1,99 +1,172 @@
 ---
-layout: home
-
-# 🦸‍♂️ Hero 区域
-hero:
-  name: "ChatGPT Plus 订阅专用卡"
-  text: "专治 'Card has been declined' 报错"
-  # 👇 修改这一行，加了颜色样式
-  tagline: "原生美国 Visa 卡段 · 1分钟解锁 GPT5.2 · 支持 USDT 充值<br><span style='color: #ef4444; font-weight: bold;'>🔥 首次充值到帐后，立即返现 5 美元</span>"
-  image:
-    src: /images/chatgpt-card.jpg # ⚠️ 确保图片存在
-    alt: ChatGPT Plus Virtual Card
-    # 放大图片，调整对齐
-    style: "max-width: 600px; width: 100%; height: auto; margin-top: 20px;"
-  actions:
-    - theme: brand
-      text: 🚀 立即开卡 (支持 USDT)
-      link: https://www.cardecho.com/index/Index/signIn.html?invCode=C517936
-    - theme: alt
-      text: 为什么支付会失败？
-      link: /guide/clean-ip
-
-# ✨ 特性区域
-features:
-  - title: 🚫 拒绝风控拦截
-    details: 不同于市面上容易被封的“预付卡”，CardEcho 提供高权重的 Credit/Debit 级别卡段，完美适配 Stripe 支付网关。
-    icon: 🛡️
-
-  - title: 🇺🇸 真实免税州地址
-    details: 可以自定义真实的美国账单地址 (Billing Address)。不仅能过 AVS 验证，还能利用免税州 (如 OR, DE) 帮您每月立省 $1-$2 税费。
-    icon: 💰
-
-  - title: 🤖 解锁 GPT5.2完全体
-    details: 稳定订阅 ChatGPT Plus ($20/月) 或 Team 版。不再受限于免费版次数，体验最强 AI 生产力。
-    icon: 🧠
-
-  - title: ⚡ 极速充值
-    details: 支持 USDT (TRC20) 加密货币充值，资金实时到账。保护隐私，无需绑定国内银行卡。
-    icon: ⚡
+layout: doc
+sidebar: false
+aside: false
+title: ChatGPT Plus 订阅专用卡 - 首充立返 $5
+head:
+  - - meta
+    - name: description
+      content: 专为 ChatGPT Plus 和 Team 版订阅设计的美国虚拟信用卡。支持 USDT 充值，AVS 地址验证，开卡即用。新用户首充返现 $5。
 ---
 
-<div style="margin-top: 30px; margin-bottom: 30px;">
+<script setup>
+const benefits = [
+  { icon: '🚀', title: '极速升级 Plus', desc: '拒绝支付失败，秒级订阅 GPT5.2' },
+  { icon: '💳', title: '原生美国卡段', desc: '拥有独立银行账户，高通过率' },
+  { icon: '💰', title: 'USDT 充值', desc: '保护隐私，资金实时到账' },
+  { icon: '🛡️', title: 'AVS 地址验证', desc: '提供匹配的账单地址，符合银行规范' }
+]
+</script>
 
-  <div style="margin-bottom: 20px;">
-    <h3>❌ 您是否遇到了以下报错？</h3>
-    <div style="padding: 1rem; border-left: 0.5rem solid var(--vp-c-danger-1); background-color: var(--vp-c-danger-soft); color: var(--vp-c-danger-text); border-radius: 8px;">
-      <p style="font-weight: bold; margin-bottom: 10px;">🚫 常见的拒绝提示 (Stripe/OpenAI)</p>
-      <blockquote style="margin-left: 0; padding-left: 1em; border-left: 3px solid var(--vp-c-danger-1); color: var(--vp-c-danger-text); margin-top: 0; margin-bottom: 0;">
-        <p style="margin: 5px 0;"><strong>Your credit card was declined. Try paying with a debit card instead.</strong><br>
-        (您的信用卡被拒绝了。请尝试用借记卡支付。)</p>
-        <p style="margin: 5px 0;"><strong>We are unable to authenticate your payment method.</strong><br>
-        (我们未能验证您的支付方式。请选择另一支付方式并重试。)</p>
-        <p style="margin: 5px 0;"><strong>你的卡已被拒绝 / 您的金融卡已被拒絕。</strong></p>
-      </blockquote>
+<div class="ai-lp">
+
+  <section class="hero">
+    <div class="badge">✨ 12月限时活动：新用户认证首充，立返 <strong>$5 美元</strong></div>
+    <h1 class="title">解锁 ChatGPT Plus<br>最稳妥的支付方式</h1>
+    <p class="subtitle">不再为 "Card Declined" 烦恼。<br>使用 CardEcho 美区虚拟卡，轻松订阅全球 AI 服务。</p>
+    
+    <div class="cta-group">
+      <a href="https://www.cardecho.com/index/Index/signIn.html?invCode=C517936" class="btn primary" target="_blank">👉 立即开卡 (领 $5 返现)</a>
+      <p class="small-note">支持 USDT (TRC20) • 0 门槛注册</p>
     </div>
-  </div>
+  </section>
 
-  <div align="center" style="margin-bottom: 25px;">
-    <p style="font-size: 1.1rem; color: #4b5563; margin-bottom: 5px;">
-      遇到这些红字不是因为您的卡坏了，而是因为 <strong style="color: #dc2626;">IP 环境不干净！</strong>
-    </p>
-    <p style="color: #666; font-size: 0.9rem; margin-top: 0;">(OpenAI 严厉打击数据中心 VPN 节点，导致误伤正常支付)</p>
-  </div>
-
-  <div style="background: #f9fafb; padding: 20px; border-radius: 12px;">
-    <h2 align="center" style="border: none; margin-bottom: 20px; margin-top: 0;">✅ CardEcho 如何帮您成功订阅？</h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
-      <div style="background: white; padding: 15px; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.1);">
-        <h3 style="margin-top: 0; color: #10a37f; font-size: 1.1rem;">Step 1: 获取美区原生卡</h3>
-        <p style="color: #4b5563; font-size: 0.9rem; margin-bottom: 0;">
-          注册 CardEcho，申请一张 <strong>556305 / 558068</strong> 开头的美国虚拟卡。这些卡段在 OpenAI 的白名单内。
-        </p>
-      </div>
-      <div style="background: white; padding: 15px; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.1);">
-        <h3 style="margin-top: 0; color: #10a37f; font-size: 1.1rem;">Step 2: 纯净环境配置</h3>
-        <p style="color: #4b5563; font-size: 0.9rem; margin-bottom: 0;">
-          配合我们的<a href="/guide/clean-ip">环境配置指南</a>，使用<strong>无痕模式 + 美国住宅 IP</strong>，避开风控黑名单。
-        </p>
-      </div>
-      <div style="background: white; padding: 15px; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.1);">
-        <h3 style="margin-top: 0; color: #10a37f; font-size: 1.1rem;">Step 3: 填写账单地址</h3>
-        <p style="color: #4b5563; font-size: 0.9rem; margin-bottom: 0;">
-          复制卡片后台绑定的<strong>真实美国地址</strong>。ZIP Code (邮编) 必须一致，以通过 AVS 验证。
-        </p>
+  <section class="features">
+    <div class="grid">
+      <div v-for="item in benefits" :key="item.title" class="feature-item">
+        <div class="icon">{{ item.icon }}</div>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.desc }}</p>
       </div>
     </div>
-  </div>
+  </section>
+
+  <section class="steps">
+    <h2>只需 3 步，完成订阅</h2>
+    <div class="step-container">
+      <div class="step">
+        <span class="num">1</span>
+        <h3>注册开卡</h3>
+        <p>手机号注册 CardEcho，完成实名认证 (KYC)。</p>
+      </div>
+      <div class="step">
+        <span class="num">2</span>
+        <h3>USDT 充值</h3>
+        <p>首次使用USDT充值，系统自动发放 $5 奖励。</p>
+      </div>
+      <div class="step">
+        <span class="num">3</span>
+        <h3>绑定支付</h3>
+        <p>在 ChatGPT 填写卡片提供的美区账单地址，完成支付。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-cta">
+    <div class="box">
+      <h2>准备好升级您的 AI 生产力了吗？</h2>
+      <p>加入数万名用户的选择，稳定使用 GPT-4o、Claude 3.5 和 Midjourney。</p>
+      <a href="https://www.cardecho.com/index/Index/signIn.html?invCode=C517936" class="btn primary large" target="_blank">🚀 立即获取专用卡</a>
+    </div>
+  </section>
 
 </div>
 
-<div align="center" style="margin-top: 50px; margin-bottom: 50px;">
-  <h2 style="border: none; margin-bottom: 15px;">已有 10,000+ 用户成功升级 GPT5.2</h2>
-  <p style="margin-bottom: 25px;">别再浪费时间寻找不靠谱的代充了，掌握自己的账号控制权。</p>
-  
-  <a href="https://www.cardecho.com/index/Index/signIn.html?invCode=C517936" target="_blank" style="background: #10a37f; color: white; padding: 16px 32px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.3rem; box-shadow: 0 10px 15px -3px rgba(16, 163, 127, 0.3); display: inline-block;">
-    👉 立即获取 ChatGPT 专用卡
-  </a>
-  <p style="margin-top: 15px; font-size: 0.8rem; color: #888;">新用户首次使用USDT充值，到帐后自动返现5美元</p>
-</div>
+<style>
+/* 页面容器 */
+.ai-lp {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  text-align: center;
+}
+
+/* 头部 Hero */
+.hero { padding: 40px 0 20px; }
+.badge {
+  display: inline-block;
+  background: #ecfdf5;
+  color: #059669;
+  border: 1px solid #a7f3d0;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  background: -webkit-linear-gradient(315deg, #10b981 0%, #3b82f6 74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.subtitle { font-size: 1.25rem; color: #4b5563; line-height: 1.6; margin-bottom: 30px; }
+.cta-group { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.small-note { font-size: 0.85rem; color: #9ca3af; margin-top: 8px; }
+
+/* 按钮样式 */
+.btn {
+  display: inline-block;
+  background: #10b981;
+  color: white !important;
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none !important;
+  transition: all 0.2s;
+  box-shadow: 0 4px 6px -1px rgba(16, 185, 129, 0.4);
+}
+.btn:hover { transform: translateY(-2px); box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.5); }
+.large { font-size: 1.2rem; padding: 16px 40px; width: 100%; max-width: 300px; }
+
+/* 特性网格 */
+.features { padding: 20px 0; }
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 20px; }
+@media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+.feature-item {
+  background: #f9fafb;
+  padding: 24px;
+  border-radius: 16px;
+  text-align: left;
+  border: 1px solid #e5e7eb;
+}
+.icon { font-size: 2rem; margin-bottom: 10px; }
+.feature-item h3 { margin: 0 0 8px 0; font-size: 1.1rem; color: #111; }
+.feature-item p { margin: 0; font-size: 0.95rem; color: #666; line-height: 1.5; }
+
+/* 步骤条 */
+.steps { padding: 40px 0; }
+.steps h2 { margin-bottom: 30px; border: none; }
+.step-container { display: flex; gap: 20px; text-align: left; }
+@media (max-width: 640px) { .step-container { flex-direction: column; } }
+.step { flex: 1; background: #fff; padding: 20px; border-radius: 12px; border: 1px solid #eee; position: relative; overflow: hidden; }
+.num { 
+  display: inline-block; width: 30px; height: 30px; line-height: 30px; 
+  background: #e0f2fe; color: #0284c7; text-align: center; border-radius: 50%; font-weight: bold; margin-bottom: 10px; 
+}
+.step h3 { margin: 0 0 5px 0; font-size: 1.1rem; }
+.step p { margin: 0; font-size: 0.9rem; color: #666; }
+
+/* 底部 CTA */
+.footer-cta { padding: 20px 0 60px; }
+.box { background: #f0fdf4; border: 1px solid #bbf7d0; padding: 40px 20px; border-radius: 20px; }
+.box h2 { margin-top: 0; border: none; color: #064e3b; }
+.box p { margin-bottom: 30px; color: #065f46; }
+
+/* 暗黑模式适配 */
+html.dark .title { background: -webkit-linear-gradient(315deg, #34d399 0%, #60a5fa 74%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+html.dark .subtitle { color: #9ca3af; }
+html.dark .feature-item, html.dark .step { background: #1e1e20; border-color: #333; }
+html.dark .feature-item h3, html.dark .step h3 { color: #fff; }
+html.dark .feature-item p, html.dark .step p { color: #bbb; }
+html.dark .box { background: #064e3b; border-color: #065f46; }
+html.dark .box h2 { color: #fff; }
+html.dark .box p { color: #d1fae5; }
+html.dark .badge { background: #064e3b; color: #6ee7b7; border-color: #059669; }
+</style>
