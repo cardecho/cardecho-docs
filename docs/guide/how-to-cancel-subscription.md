@@ -48,8 +48,11 @@ OpenAI 目前有“追款机制”：如果您不主动取消，系统可能会�
 MidJourney 对扣款失败的风控较严，如果产生大量拒付可能会导致 Discord 账号受限。
 
 1.  登录 MidJourney 官网，在左侧边栏找到您的头像卡片。
+![MidJourney 取消界面](/images/midjourney-cancel-button1.png)
 2.  点击 **"Manage"** 按钮。
+![MidJourney 取消界面](/images/midjourney-cancel-button2.png)
 3.  在 Plan 详情页，点击 **"Cancel Plan"**。
+![MidJourney 取消界面](/images/midjourney-cancel-button3.png)
 
 > **💡 注意：** 如果您是刚订阅不久且未大量使用 GPU 时间，取消时有时会触发“全额退款”选项；如果是正常使用中取消，权益将保留至本周期结束。
 
@@ -61,7 +64,7 @@ MidJourney 对扣款失败的风控较严，如果产生大量拒付可能会导
 2.  找到 Premium 会员栏，点击 **"管理会员资格"**。
 3.  点击 **"停用" (Deactivate)**。
 4.  系统会挽留你，请坚定点击 **"继续取消"**。
-
+![YouTube Premium 取消界面](/images/youtube-premium-manage1.png)
 ---
 
 ## 4. DeepL Pro 取消教程
@@ -71,8 +74,9 @@ DeepL 的取消入口比较隐蔽：
 2.  找到 **"DeepL Pro Starter"** (或您订阅的套餐)。
 3.  点击 **"取消订阅"**。
 
+![DeepL 取消界面](/images/cancelyourdeeplsubscribe1.png)
 > **💡 试用期技巧：** 如果您开通了 30 天免费试用，建议开通后**立即去取消**。这样试用期依然有效（直到 30 天结束），但能防止到期后自动扣费，是“白嫖”试用的最安全姿势。
-
+![DeepL 取消界面](/images/deepl2.png)
 ---
 
 ## 5. Adobe 全家桶取消教程（避坑指南）
@@ -86,7 +90,7 @@ Adobe 被称为“最难取消”的服务之一，直接在网页点取消有�
 4.  直接在对话框输入：**"I want to talk to a real person"** 或 **"Human agent please"**。
 5.  连接到真人后，告诉他：`I want to cancel my subscription immediately, please help me.`
 6.  通常人工客服有权限帮您免除违约金并顺利取消。
-
+![adobe 取消界面](/images/adobecancel.png)
 ---
 
 ### 🛡️ 实在取消不掉怎么办？（千万别直接删卡！）
