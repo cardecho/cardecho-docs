@@ -21,6 +21,7 @@ OpenAI 目前有“追款机制”：如果您不主动取消，系统可能会�
 
 ### 网页端订阅用户
 1.  登录 ChatGPT 官网，点击左下角的**头像/邮箱**。
+![ChatGPT 网页端取消步骤](/images/cancel-chatgpt-step1.webp)
 2.  在弹出的菜单中点击 **"My plan"**。
 3.  点击 **"Manage my subscription"**。
 4.  在跳转的 Stripe 页面中，点击 **"Cancel plan"** 即可。
