@@ -23,17 +23,23 @@ OpenAI 目前有“追款机制”：如果您不主动取消，系统可能会�
 1.  登录 ChatGPT 官网，点击左下角的**头像/邮箱**。
 ![ChatGPT 网页端取消步骤](/images/cancel-chatgpt-step1.webp)
 2.  在弹出的菜单中点击 **"My plan"**。
+![ChatGPT 网页端取消步骤](/images/cancel-chatgpt-step2.png)
 3.  点击 **"Manage my subscription"**。
+![ChatGPT 网页端取消步骤](/images/cancel-chatgpt-step3.webp)
 4.  在跳转的 Stripe 页面中，点击 **"Cancel plan"** 即可。
+![ChatGPT 网页端取消步骤](/images/cancel-chatgpt-step4.webp)
 
 > **💡 提示：** 取消后，您的 Plus 会员权益**不会立即消失**，而是会一直持续到当前的账单周期结束。您可以放心提前取消，不用担心亏了时长。
 
 ### App Store (iOS) 订阅用户
 如果您是在 iPhone 上通过美区 Apple ID 订阅的：
 1.  打开 **App Store**，点击右上角的**头像**。
+![ChatGPT iOS 端取消步骤](/images/appstoresub.webp)
 2.  点击 **"订阅" (Subscriptions)**。
+![ChatGPT iOS 端取消步骤](/images/chatgptplusappstore.png)
 3.  在列表中找到 **ChatGPT**。
 4.  点击 **"取消订阅" (Cancel Subscription)**。
+![ChatGPT iOS 端取消步骤](/images/applecancel3.png)
 
 ---
 
