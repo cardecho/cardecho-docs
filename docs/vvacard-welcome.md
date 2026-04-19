@@ -16,7 +16,7 @@ outline: false
 您好！您可能是通过 **VVAcard** 的链接访问到了此页面。
 
 ::: warning ⚠️ 情况说明
-由于 VVAcard 官方目前**已关闭新用户注册通道**。为了确保您的海外支付、AI 软件订阅（如 ChatGPT、MidJourney 等）不受影响，我们为您推荐更加稳定、合规的替代升级方案 —— **CardEcho 全球支付卡**。
+由于 VVAcard 官方目前**已关闭新用户注册通道**。为了确保您的海外支付、购物、AI 软件订阅（如 ChatGPT、MidJourney、Claude 等）不受影响，我们为您推荐更加稳定、合规的替代升级方案 —— **CardEcho 全球支付卡**。
 :::
 
 在接下来的流程中，您将注册 **CardEcho** 的专属账户。与传统的免实名虚拟卡相比，您将在 CardEcho 获得：
