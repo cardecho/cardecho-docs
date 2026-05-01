@@ -20,7 +20,7 @@ outline: false
 :::
 
 **如果您是拥有高并发或定制化开卡需求的企业/大客户**，请通过邮件联系我们的商务支持团队进行评估与定向邀请入驻：
-📧 **[support@vvacard.com](mailto:support@vvacard.com)**
+📧 **[support@cardecho.com](mailto:support@cardecho.com)**
 
 ---
 
