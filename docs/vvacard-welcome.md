@@ -7,40 +7,29 @@ outline: false
 
 <div class="transition-container">
   <div class="brand-header">
-    <h2 style="border: none; margin: 0;">VVAcard &nbsp; ➡️ &nbsp; <span style="color: #2563eb;">CardEcho</span></h2>
+    <h2 style="border: none; margin: 0; color: #475569;">📢 平台重要公告</h2>
   </div>
   <div class="notice-content">
 
-### 📢 致 VVAcard 访问用户的重要通知
+### 致所有访问用户
 
-您好！您可能是通过 **VVAcard** 的链接访问到了此页面。
+您好！非常感谢您对本平台的关注与支持。
 
-::: warning ⚠️ 情况说明
-由于 VVAcard 官方目前**已关闭新用户注册通道**。为了确保您的海外支付、购物、AI 软件订阅（如 ChatGPT、MidJourney、Claude 等）不受影响，我们为您推荐更加稳定、合规的替代升级方案 —— **CardEcho 全球支付卡**。
+::: warning ⛔ 注册通道暂未开放
+为了保障现有用户的服务质量与合规环境，**本平台目前已关闭面向公众的个人注册通道**，不再受理个人零散注册。
 :::
 
-在接下来的流程中，您将注册 **CardEcho** 的专属账户。与传统的免实名虚拟卡相比，您将在 CardEcho 获得：
+**如果您是拥有高并发或定制化开卡需求的企业/大客户**，请通过邮件联系我们的商务支持团队进行评估与定向邀请入驻：
+📧 **[support@cardecho.com](mailto:support@cardecho.com)**
 
-* **🛡️ 独享合规卡段**：严格 KYC 认证，拒绝烂卡段连坐，大幅降低封号风险。
-* **✨ 支持 AVS 验证**：提供匹配的账单地址，解决高难度平台的支付拒付问题。
-* **🎁 迎新福利**：现在完成认证并首充，系统将自动返现 **$5 美元**。
-
-<p class="final-note">请确知：接下来的操作将在 <strong>CardEcho 官方平台</strong> 进行。</p>
-
-<a href="https://www.cardecho.com/index/Index/signIn.html" class="cta-button">
-  我已了解，前往 CardEcho 注册 🚀
-</a>
-
-<p style="text-align: center; margin-top: 15px; font-size: 0.85rem; color: #9ca3af;">
-  如果您不想继续，可直接关闭此页面。
-</p>
+---
 
   </div>
 </div>
 
 <style>
 .transition-container {
-  max-width: 650px;
+  max-width: 600px;
   margin: 40px auto;
   background: var(--vp-c-bg);
   border-radius: 12px;
@@ -50,14 +39,14 @@ outline: false
 }
 
 .brand-header {
-  background: var(--vp-c-bg-soft);
+  background: var(--vp-c-bg-alt);
   padding: 20px;
   text-align: center;
   border-bottom: 1px solid var(--vp-c-divider);
 }
 
 .brand-header h2 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,20 +58,14 @@ outline: false
 
 .notice-content h3 {
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   border: none;
 }
 
-.final-note {
-  text-align: center;
-  font-weight: bold;
-  margin-top: 30px !important;
-}
-
-.cta-button {
+.login-button {
   display: block;
   width: 100%;
-  background: #2563eb;
+  background: #3b82f6; /* 回归中性的专业蓝色 */
   color: #ffffff !important;
   text-align: center;
   padding: 14px 20px;
@@ -91,12 +74,12 @@ outline: false
   font-weight: bold;
   text-decoration: none !important;
   transition: background 0.3s, transform 0.1s;
-  margin-top: 20px;
+  margin-top: 25px;
   box-sizing: border-box;
 }
 
-.cta-button:hover {
-  background: #1d4ed8;
+.login-button:hover {
+  background: #2563eb;
   transform: translateY(-2px);
 }
 
