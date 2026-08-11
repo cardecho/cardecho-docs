@@ -69,7 +69,7 @@ CardEcho 新手指南：3分钟学会使用 USDT 充值
   <video
     src="https://video.cardecho.com/usdt-recharge-guide.mp4"
     controls preload="metadata" playsinline
-    poster="https://video.cardecho.com/cover.jpg"
+    poster="https://video.cardecho.com/cover.png"
     style="width:100%;max-width:800px;border-radius:8px;">
   </video>
 </p>
