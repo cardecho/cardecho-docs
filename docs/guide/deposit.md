@@ -61,6 +61,18 @@ CardEcho 新手指南：3分钟学会使用 USDT 充值
    ### 第 3 步：等待到账
    
    点击提交后，交易所会进行安全验证。通常在 **3-5 分钟** 内，区块链网络确认完毕，您的 CardEcho 账户余额就会更新。
+   ## 🎬 视频演示
+
+文字看不明白？这段视频完整演示了一次充值全过程，重点是手续费的正确填法：
+
+<p align="center">
+  <video
+    src="https://video.cardecho.com/usdt-recharge-guide.mp4"
+    controls preload="metadata" playsinline
+    poster="https://video.cardecho.com/cover.jpg"
+    style="width:100%;max-width:800px;border-radius:8px;">
+  </video>
+</p>
    
    ------
    
