@@ -31,6 +31,16 @@ CardEcho 提供了 **自助补单功能**，您无需联系客服即可快速找
 
 <p align="center"><img src="/images/image-20251219115610966.png"></p>
 
+币安的邮件一样有实际的到帐金额
+
+<p align="center"><img src="/images/binanceemail.png"></p>
+
+手机APP的提币记录也有相关的信息，如图：
+
+<p align="center"><img src="/images/bin_phone.png"></p>
+
+提交工单时，输入准确的实际付款金额非常重要。如果输错了实际付款金额，会导致工单被驳回。
+
 **步骤 4：系统核验** 点击 **“提交”**，等待人工审核。如果补单申请被驳回，可能是您选择了错误的充值订单或者输错了实际付款金额，可以再次提交补单申请。
 
 ::: warning ⚠️ 重要提示
