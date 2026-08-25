@@ -1,5 +1,14 @@
 # 充值后未自动到账怎么办？
 
+<p align="center">
+  <video
+    src="https://video.cardecho.com/gongdan.mp4"
+    controls preload="metadata" playsinline
+    poster="https://video.cardecho.com/gongdan.png"
+    style="width:100%;max-width:800px;border-radius:8px;">
+  </video>
+</p>
+
 **适用场景：**
 
 * 您已完成 USDT 转账，但超过 5 分钟账户余额未更新。
